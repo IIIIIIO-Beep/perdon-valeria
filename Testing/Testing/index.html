@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perdoname</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background-glow background-glow-left"></div>
+  <div class="background-glow background-glow-right"></div>
+
+  <header class="hero">
+    <p class="eyebrow">Para Valeria, la persona que mas amo</p>
+    <h1>Perdoname por mis idioteces</h1>
+    <p class="hero-copy">
+      Perdon por mis errorres, y causar todo el estres que he causado.
+      Hice esta pagina para hablarte con el corazon y decirte cuanto me importas.
+    </p>
+    <a class="hero-button" href="#carta">Lee lo que quiero decirte</a>
+  </header>
+
+  <main>
+    <section class="card letter" id="carta">
+      <span class="section-tag">Mi carta para ti</span>
+      <h2>Lo siento de verdad</h2>
+      <p>
+        Valeria,
+      </p>
+      <p>
+        Perdon por mis errorres, y causar todo el estres que he causado.
+        Se que mis acciones pudieron lastimarte y no quiero hacer como si eso no importara.
+      </p>
+      <p>
+        Me duele saber que fui parte de tus malos momentos, porque lo ultimo que quiero es convertir
+        mi amor en una carga para ti. Te pido perdon con humildad y con ganas reales de hacerlo mejor.
+      </p>
+      <p>
+        Si me das la oportunidad, quiero seguir construyendo recuerdos bonitos contigo,
+        cuidarte mas, escucharte mejor y hacerte sentir la paz y el amor que realmente mereces.
+      </p>
+      <blockquote>
+        "No quiero prometer perfeccion. Quiero prometerte esfuerzo real, amor sincero y hechos."
+      </blockquote>
+    </section>
+
+    <section class="card gallery">
+      <div class="section-heading">
+        <span class="section-tag">Nuestros recuerdos</span>
+        <h2>Un pedacito de nosotros</h2>
+      </div>
+      <div class="photo-grid">
+        <figure class="photo-frame">
+          <img src="gatoFlor.jpg" alt="Imagen especial del proyecto">
+          <figcaption>Ya deje integrada una imagen local del proyecto para que la pagina tenga un detalle visual propio.</figcaption>
+        </figure>
+        <figure class="photo-frame">
+          <img src="gatoPerdon.jpg" alt="Otra imagen especial para Valeria">
+          <figcaption>Tambien agregue la nueva imagen del folder para que la pagina se sienta mas tuya.</figcaption>
+        </figure>
+        <figure class="photo-frame">
+          <img src="https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=900&q=80" alt="Manos tomadas">
+          <figcaption>Tu recuerdo favorito puede ir justo aqui.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="card reasons">
+      <span class="section-tag">Lo que siento por ti</span>
+      <h2>Por que eres tan importante para mi</h2>
+      <div class="reasons-grid">
+        <article>
+          <h3>Tu forma de querer</h3>
+          <p>Porque tu amor hace que los dias normales se sientan especiales.</p>
+        </article>
+        <article>
+          <h3>Tu compania</h3>
+          <p>Porque contigo incluso el silencio se siente bonito y seguro.</p>
+        </article>
+        <article>
+          <h3>Tu esencia</h3>
+          <p>Porque eres una persona maravillosa y nunca quiero darte menos de lo que mereces.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="card song">
+      <div class="section-heading">
+        <span class="section-tag">Nuestra cancion</span>
+        <h2>Una cancion para decirte lo que a veces no se expresar</h2>
+      </div>
+      <p>
+        Esta cancion queda aqui como una forma mas de decirte todo lo que siento por ti, Valeria.
+      </p>
+      <div class="song-panel">
+        <p class="song-title">Nuestra cancion especial</p>
+        <a class="song-button" href="https://www.youtube.com/watch?v=RbDHrszEIS8&list=RDRbDHrszEIS8&start_radio=1" target="_blank" rel="noreferrer">
+          Escuchar nuestra cancion
+        </a>
+      </div>
+    </section>
+
+    <section class="card promise">
+      <span class="section-tag">Lo que quiero cuidar</span>
+      <h2>No solo quiero pedir perdon, quiero hacerlo mejor</h2>
+      <p>
+        Esta pagina nace desde el amor y desde las ganas reales de aprender de mis errores.
+        Ojala pueda ser el inicio de una conversacion bonita entre nosotros.
+      </p>
+      <div class="decision-box">
+        <p class="decision-question">Me perdonas?</p>
+        <div class="decision-actions">
+          <button id="yes-button" class="hero-button">Si</button>
+          <button id="no-button" class="hero-button secondary-button">No</button>
+        </div>
+        <p id="decision-message" class="decision-message" aria-live="polite"></p>
+      </div>
+      <button id="heart-button" class="hero-button secondary">Toca aqui</button>
+      <p id="heart-message" class="heart-message" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Hecho con amor, humildad y muchas ganas de arreglar las cosas.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
